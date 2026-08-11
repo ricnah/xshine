@@ -39,6 +39,7 @@
   "files": [
     "lib/*",
     "WAProto/*",
+    "logo/*",
     "LICENSE",
     "README.md"
   ],
