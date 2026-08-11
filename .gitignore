@@ -1,0 +1,6 @@
+node_modules/
+*.log
+.ds_store
+auth_session/
+session*/
+scratch/
