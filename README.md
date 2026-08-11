@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="../logo/xshine-logo.svg" alt="xshine logo" width="100%" />
+  <img src="logo/xshine-logo.svg" alt="xshine logo" width="100%" />
 </div>
 
 # xshine

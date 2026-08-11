@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Dark Ambient Background Gradient -->
+    <linearGradient id="iconBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090414" />
+      <stop offset="50%" stop-color="#1A0B36" />
+      <stop offset="100%" stop-color="#05020A" />
+    </linearGradient>
+
+    <!-- Dominant Deep Purple Shield Gradient -->
+    <linearGradient id="iconPurple1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC" />
+      <stop offset="50%" stop-color="#9333EA" />
+      <stop offset="100%" stop-color="#581C87" />
+    </linearGradient>
+
+    <!-- Vibrant Purple Glow Gradient -->
+    <linearGradient id="iconPurple2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F3E8FF" />
+      <stop offset="50%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#6B21A8" />
+    </linearGradient>
+
+    <!-- Subtle Neon Green Accent Gradient -->
+    <linearGradient id="iconGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ADE80" />
+      <stop offset="100%" stop-color="#16A34A" />
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="iconGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="iconGreenGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Rounded Canvas (GitHub Avatar Standard 1:1) -->
+  <rect width="512" height="512" rx="112" fill="url(#iconBgGrad)" />
+  <rect width="508" height="508" x="2" y="2" rx="110" fill="none" stroke="url(#iconPurple1)" stroke-width="2" stroke-opacity="0.5" />
+
+  <!-- Background Glow Aura -->
+  <circle cx="256" cy="256" r="170" fill="url(#iconPurple1)" opacity="0.15" filter="url(#iconGlow)" />
+
+  <!-- EMBLEM GROUP (Centered 512x512) -->
+  <g transform="translate(0, 0)">
+
+    <!-- Outer Geometric Hexagon Ring -->
+    <polygon points="256,70 410,158 410,340 256,428 102,340 102,158" 
+             fill="none" stroke="url(#iconPurple1)" stroke-width="5" stroke-dasharray="270 70 140 40" />
+    
+    <!-- Neon Green Touch Accent Dots on Corners -->
+    <circle cx="410" cy="158" r="8" fill="url(#iconGreen)" filter="url(#iconGreenGlow)" />
+    <circle cx="102" cy="340" r="7" fill="url(#iconGreen)" />
+
+    <!-- Inner Diamond Orbit Ring -->
+    <polygon points="256,108 398,256 256,404 114,256" 
+             fill="none" stroke="url(#iconPurple2)" stroke-width="5.5" stroke-dasharray="190 50 110 30" />
+    <circle cx="256" cy="108" r="7" fill="url(#iconPurple2)" filter="url(#iconGlow)" />
+    <circle cx="256" cy="404" r="6.5" fill="url(#iconGreen)" filter="url(#iconGreenGlow)" />
+
+    <!-- Layered Geometric Crystal Shield (Static non-fingerprint) -->
+    <polygon points="256,136 360,196 360,316 256,376 152,316 152,196" 
+             fill="url(#iconPurple1)" fill-opacity="0.3" stroke="url(#iconPurple2)" stroke-width="5" />
+
+    <!-- Inner Sharp Diamond Facet Shell -->
+    <polygon points="256,166 332,256 256,346 180,256" 
+             fill="none" stroke="url(#iconPurple1)" stroke-width="4" stroke-dasharray="220 30" />
+
+    <!-- Central Glowing Core Node (Prism Core) -->
+    <g>
+      <polygon points="256,198 302,256 256,314 210,256" fill="url(#iconPurple2)" filter="url(#iconGlow)" opacity="0.9" />
+      <!-- Central Bright Core Spark -->
+      <circle cx="256" cy="256" r="16" fill="#FFFFFF" filter="url(#iconGlow)" />
+      <!-- Subtle Green Energy Core Center -->
+      <circle cx="256" cy="256" r="6" fill="#4ADE80" />
+    </g>
+
+    <!-- Corner Spark Details -->
+    <circle cx="360" cy="196" r="4.5" fill="#4ADE80" filter="url(#iconGreenGlow)" />
+    <circle cx="152" cy="316" r="4.5" fill="#C084FC" />
+  </g>
+</svg>
