@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo/xshine-logo.svg" alt="xshine logo" width="100%" />
+  <img src="https://raw.githubusercontent.com/ricnah/xshine/main/logo/xshine-logo.svg" alt="xshine logo" width="100%" />
 
   <br />
 
