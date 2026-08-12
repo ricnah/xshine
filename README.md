@@ -3,8 +3,8 @@
 
   <br />
 
-  [![npm version](https://img.shields.io/npm/v/xshine.svg?style=flat-square&color=8A2BE2)](https://www.npmjs.com/package/xshine)
-  [![npm downloads](https://img.shields.io/npm/dm/xshine.svg?style=flat-square&color=blue)](https://www.npmjs.com/package/xshine)
+  [![npm version](https://img.shields.io/npm/v/xshine-wa.svg?style=flat-square&color=8A2BE2)](https://www.npmjs.com/package/xshine-wa)
+  [![npm downloads](https://img.shields.io/npm/dm/xshine-wa.svg?style=flat-square&color=blue)](https://www.npmjs.com/package/xshine-wa)
   [![license](https://img.shields.io/github/license/ricnah/xshine?style=flat-square&color=green)](LICENSE)
   [![node version](https://img.shields.io/node/v/xshine?style=flat-square&color=purple)](package.json)
 </div>
@@ -36,7 +36,7 @@ xshine is an enhanced WhatsApp Web protocol library built on top of WebSocket an
 Install via npm:
 
 ```bash
-npm install xshine
+npm install xshine-wa
 ```
 
 Prerequisites:
@@ -53,7 +53,7 @@ Prerequisites:
 ### 1. ESM Usage (`import`)
 
 ```javascript
-import makeWASocket, { useMultiFileAuthState, DisconnectReason } from 'xshine';
+import makeWASocket, { useMultiFileAuthState, DisconnectReason } from 'xshine-wa';
 import pino from 'pino';
 
 const logger = pino({ level: 'silent' });
@@ -99,7 +99,7 @@ startSocket();
 ### 2. CommonJS Usage (`require`)
 
 ```javascript
-const { makeWASocket, useMultiFileAuthState, DisconnectReason } = require('xshine');
+const { makeWASocket, useMultiFileAuthState, DisconnectReason } = require('xshine-wa');
 
 async function main() {
     const { state, saveCreds } = await useMultiFileAuthState('./session_cjs');
@@ -118,7 +118,7 @@ main();
 ### Interactive Flow Buttons
 
 ```javascript
-import { InteractiveEngine, Button } from 'xshine';
+import { InteractiveEngine, Button } from 'xshine-wa';
 
 const flowMsg = new InteractiveEngine(sock)
     .setTitle('System Menu')
@@ -134,7 +134,7 @@ await flowMsg.send(jid);
 ### Carousel Cards
 
 ```javascript
-import { Carousel } from 'xshine';
+import { Carousel } from 'xshine-wa';
 
 const carousel = new Carousel(sock)
     .setText('Product Catalog')
@@ -161,7 +161,7 @@ await carousel.send(jid);
 To maintain compatibility with applications querying historical message states without risking Out-Of-Memory (OOM) heap exceptions, xshine provides a hybrid store implementation bounded by LRU capacity:
 
 ```javascript
-import makeWASocket, { useMultiFileAuthState, makeInMemoryStore } from 'xshine';
+import makeWASocket, { useMultiFileAuthState, makeInMemoryStore } from 'xshine-wa';
 
 const store = makeInMemoryStore({ maxMessagesPerChat: 500 });
 const { state, saveCreds } = await useMultiFileAuthState('./auth_info');
