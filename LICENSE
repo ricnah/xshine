@@ -1,42 +1,16 @@
-Custom Public License with Mandatory Attribution Clause
+MIT License
 
-Copyright (c) 2026 ricnah (pengembang xshine)
+Copyright (c) 2026 ricnah
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to use,
-run, integrate, copy, modify, and execute the Software for personal, private,
-commercial, or non-commercial applications and WhatsApp bots, subject to the
-following terms and conditions:
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-1. FREE USAGE & INTEGRATION RIGHTS:
-   Any individual or organization is granted full rights to install, run, use,
-   modify, and integrate this Software in any WhatsApp bot, service, or application free of charge.
-
-2. MANDATORY ATTRIBUTION FOR RE-DISTRIBUTION & CLONING:
-   Re-publishing, hosting public repository clones, uploading source mirrors, or
-   distributing modified/unmodified versions of this Software on public code platforms
-   (including GitHub, GitLab, Bitbucket) or package registries (such as npm, yarn, or
-   GitHub Packages) is permitted PROVIDED THAT explicit credit and attribution is given to
-   the developer of xshine ("ricnah") in the project repository, README, or package metadata.
-
-3. PROHIBITION OF UNCREDITED CLONING & RE-PUBLISHING:
-   Cloning, mirroring, or re-publishing this Software on GitHub, npm, or any public platform
-   without explicitly stating and crediting "ricnah" as the developer of xshine is strictly prohibited.
-
-4. NOTICE RETENTION:
-   The above copyright notice, attribution to "ricnah", and this permission notice
-   shall be included in all copies or substantial portions of the Software.
-
-ACKNOWLEDGEMENTS & SPECIAL THANKS:
-Special thanks to WhiskeySockets/Baileys and original open-source contributors for the base WhatsApp Web protocol architecture and specification.
-
-DISCLAIMER & LEGAL NOTICE:
-This Software is an independent open-source project and is NOT affiliated, endorsed, authorized,
-sponsored, or associated with WhatsApp Inc., Meta Platforms, Inc., or any of their affiliates.
-"WhatsApp" and related marks are registered trademarks of Meta Platforms, Inc.
-The Software is provided strictly for educational, research, and legitimate automation purposes.
-The developer ("ricnah") assumes no liability for any account bans, service suspensions,
-or damages resulting from the use or misuse of this Software.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
