@@ -1,6 +1,6 @@
 {
   "name": "xshine-wa",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "baileys by ricnah - High-performance, lightweight WhatsApp Web API library with interactive flow buttons, carousel cards, and hybrid store management",
   "keywords": [
     "xshine",
@@ -41,7 +41,8 @@
     "WAProto/*",
     "logo/*",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "readme.md"
   ],
   "scripts": {
     "test": "node -e \"import('./lib/index.js').then(() => console.log('ESM verified')).catch(e => { console.error(e); process.exit(1); }); const mod = require('./lib/index.cjs'); if (mod) console.log('CJS verified');\""
