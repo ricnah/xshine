@@ -1,5 +1,12 @@
 <div align="center">
   <img src="logo/xshine-logo.svg" alt="xshine logo" width="100%" />
+
+  <br />
+
+  [![npm version](https://img.shields.io/npm/v/xshine.svg?style=flat-square&color=8A2BE2)](https://www.npmjs.com/package/xshine)
+  [![npm downloads](https://img.shields.io/npm/dm/xshine.svg?style=flat-square&color=blue)](https://www.npmjs.com/package/xshine)
+  [![license](https://img.shields.io/github/license/ricnah/xshine?style=flat-square&color=green)](LICENSE)
+  [![node version](https://img.shields.io/node/v/xshine?style=flat-square&color=purple)](package.json)
 </div>
 
 # xshine
