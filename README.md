@@ -4,9 +4,9 @@
   <br />
 
   [![npm version](https://img.shields.io/npm/v/xshine-wa.svg?style=flat-square&color=8A2BE2)](https://www.npmjs.com/package/xshine-wa)
-  [![npm downloads](https://img.shields.io/npm/dm/xshine-wa.svg?style=flat-square&color=blue)](https://www.npmjs.com/package/xshine-wa)
-  [![license](https://img.shields.io/github/license/ricnah/xshine?style=flat-square&color=green)](LICENSE)
-  [![node version](https://img.shields.io/node/v/xshine?style=flat-square&color=purple)](package.json)
+  [![npm downloads](https://img.shields.io/npm/dt/xshine-wa.svg?style=flat-square&color=blue)](https://www.npmjs.com/package/xshine-wa)
+  [![license](https://img.shields.io/npm/l/xshine-wa.svg?style=flat-square&color=green)](LICENSE)
+  [![node version](https://img.shields.io/node/v/xshine-wa.svg?style=flat-square&color=purple)](package.json)
 </div>
 
 # xshine
