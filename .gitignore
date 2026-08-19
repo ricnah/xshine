@@ -4,3 +4,4 @@ node_modules/
 auth_session/
 session*/
 scratch/
+package-lock.json
